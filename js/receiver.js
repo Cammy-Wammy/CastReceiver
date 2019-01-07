@@ -28,8 +28,8 @@ const playerManager = context.getPlayerManager();
 // Listen and log all Core Events
 playerManager.addEventListener(cast.framework.events.category.CORE,
   event => {
-    // console.log("Core event: " + event.type);
-    // console.log(event);
+    console.log("Core event: " + event.type);
+    console.log(event);
     var flattened = flatten(event);
     newrelic.addPageAction('coreEvent', flattened);
   });
