@@ -5,7 +5,7 @@ body {
 cast-media-player {
   --theme-hue: 180;
   --progress-color: rgb(0, 255, 255);
-  --splash-image: url('res/background-1.jpg');
+  --splash-image: url('https://newrelic.com/assets/newrelic/source/NewRelic-logo-square.svg');
   --splash-size: cover;
   --slideshow-interval: 8;
   --slideshow-animation: 3;
@@ -24,7 +24,7 @@ cast-media-player {
 /* ------------------------------------------------- */
 /* Sample Overlay Text                               */
 /* ------------------------------------------------- */
-cast-media-player:after {
+/* cast-media-player:after {
   content: "SAMPLE";
   position: absolute;
   left: 0;
@@ -37,4 +37,4 @@ cast-media-player:after {
   margin-top: -150px;
   opacity: 0.5;
   color: red;
-}
+} */
