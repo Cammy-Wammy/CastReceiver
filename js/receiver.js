@@ -30,7 +30,7 @@ playerManager.addEventListener(cast.framework.events.category.CORE,
   event => {
     console.log("Core event: " + event.type);
     console.log(event);
-    var flattened = flatten(event);
+    var flattened = flatten(event, { safe: true });
     newrelic.addPageAction('coreEvent', flattened);
   });
 
