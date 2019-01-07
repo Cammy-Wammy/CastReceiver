@@ -1,3 +1,5 @@
+var flatten = require('flat');
+
 /*
 Copyright 2018 Google Inc. All Rights Reserved.
 
@@ -28,7 +30,8 @@ playerManager.addEventListener(cast.framework.events.category.CORE,
   event => {
     // console.log("Core event: " + event.type);
     // console.log(event);
-    newrelic.addPageAction('coreEvent', event);
+    var flattened = flatten(event);
+    newrelic.addPageAction('coreEvent', flattened);
   });
 
 const playbackConfig = new cast.framework.PlaybackConfig();

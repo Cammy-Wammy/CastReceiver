@@ -1,0 +1,25 @@
+{
+  "name": "castreceiver",
+  "version": "1.0.0",
+  "description": "This sample shows how to develop a fully Cast Design Checklist compliant receiver with additional features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cammy-Wammy/CastReceiver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cammy-Wammy/CastReceiver/issues"
+  },
+  "homepage": "https://github.com/Cammy-Wammy/CastReceiver#readme",
+  "dependencies": {
+    "flat": "^4.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
+  }
+}
